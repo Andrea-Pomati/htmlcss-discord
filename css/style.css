@@ -210,16 +210,27 @@ header {
     gap: 10px;
 }
 
+
+
 .img-2{
     height: 300px;
-    width: 600px;
+    width: 700px;
     background-color: brown;
+}
+
+#foto-grande{
+    height: 100%;
+    width: 100%;
 }
 
 .h2-p-2 {
     height: 100px;
     width: 600px;
     background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -234,6 +245,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+#paragrafo-centrato {
+    text-align: center;
 }
 
 #avventura  {
