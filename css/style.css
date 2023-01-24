@@ -255,6 +255,9 @@ header {
     height: 100px;
     width: 600px;
     background-color: brown;
+    text-align: center;
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
 
 
 }
@@ -263,6 +266,18 @@ header {
     height: 100px;
     width: 600px;
     background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#scarica-mac2 {
+    background-color: #7289DA;
+    BORDER: none;
+    border-radius: 5px;
+    color: white;
+
 }
 
 
