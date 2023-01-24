@@ -238,7 +238,7 @@ header {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -278,6 +278,7 @@ header {
     BORDER: none;
     border-radius: 5px;
     color: white;
+    padding: 3px;
 
 }
 
@@ -303,6 +304,15 @@ header {
     width: 150px;
     background-color: brown;
 
+
+}
+
+h4 {
+    color: #7289DA;
+}
+
+#il-tuo-posto {
+    color: #7289DA;
 
 }
 
