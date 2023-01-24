@@ -215,7 +215,7 @@ header {
 .img-2{
     height: 300px;
     width: 700px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 #foto-grande{
@@ -226,7 +226,7 @@ header {
 .h2-p-2 {
     height: 100px;
     width: 600px;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -254,10 +254,11 @@ header {
 #avventura  {
     height: 100px;
     width: 600px;
-    background-color: brown;
+    /* background-color: brown; */
     text-align: center;
     background-image: url(/img/stars.svg);
     background-repeat: no-repeat;
+    padding-top: 25px;
 
 
 }
@@ -265,11 +266,11 @@ header {
 #scarica {
     height: 100px;
     width: 600px;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #scarica-mac2 {
