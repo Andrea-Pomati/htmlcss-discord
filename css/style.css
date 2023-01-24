@@ -288,7 +288,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     /* border: 1px solid black; */
-    height: 550px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
 
@@ -357,7 +357,7 @@ h4 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -368,7 +368,28 @@ h4 {
 .button-bottom-specific {
     height: 30px;
     width: 150px;
-    background-color: brown;
+    /* background-color: brown; */
+    margin-top: 10px;
 
 }
+
+#logo-bottom{
+    height: 100%;
+    width: 100%;
+}
+
+#registrati-bottom {
+    background-color: #7289DA;
+    BORDER: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+#flex-button-bottom {
+    display: flex;
+    
+    justify-content: flex-end;
+}
+
 
