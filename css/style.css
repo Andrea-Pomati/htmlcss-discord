@@ -178,14 +178,23 @@ header {
 .img-1{
         height: 300px;
         width: 300px;
-        background-color: brown;
+        /* background-color: brown; */
     }
+
+#foto-rana {
+    height: 100%;
+    width: 100%;
+}
 
 .h2-p {
     height: 300px;
     width: 300px;
-    background-color: brown;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
 
 #flex1{
     display: flex;
