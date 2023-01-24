@@ -287,7 +287,7 @@ header {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 550px;
     display: flex;
     justify-content: space-between;
@@ -295,14 +295,17 @@ header {
 }
 
 
-
+footer {
+    background-color: #23272A;
+    padding-top: 20px;
+}
 
 
 
 .element-footer {
     height: 500px;
     width: 150px;
-    background-color: brown;
+    /* background-color: brown; */
 
 
 }
@@ -334,6 +337,7 @@ h4 {
 
 .list-item{
     list-style: none;
+    color: white;
 
 }
 
